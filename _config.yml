@@ -1,0 +1,11 @@
+theme: jekyll-theme-hacker
+title: root💀bl4ck4non:~#
+description: Try Harder!.
+show_downloads: false
+show_repo: false
+
+gems:
+- jekyll-sitemap
+
+whitelist:
+- jekyll-sitemap
