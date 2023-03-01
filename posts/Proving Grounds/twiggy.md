@@ -67,6 +67,51 @@ From the screenshot above we can see that it is running salt-api/3000-i, checkin
 
 ![image](https://user-images.githubusercontent.com/126628077/222030012-7a1b8f63-701e-4ee3-950e-80e5b5c4c8b2.png)
 
+So,this means there is an exploit for it
+
+![image](https://user-images.githubusercontent.com/126628077/222030472-1629245e-19da-4672-85e7-1db9ea7fa15c.png)
+
+>Link:https://github.com/jasperla/CVE-2020-11651-poc
+
+Now, lets clone this repository and install the necessary requirements
+
+```
+                                                                                                                                                                        
+┌──(bl4ck4non㉿bl4ck4non)-[~/Downloads/PG/pg_practice/Twiggy]
+└─$ git clone https://github.com/jasperla/CVE-2020-11651-poc
+Cloning into 'CVE-2020-11651-poc'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 30 (delta 12), reused 26 (delta 10), pack-reused 0
+Receiving objects: 100% (30/30), 8.61 KiB | 8.61 MiB/s, done.
+Resolving deltas: 100% (12/12), done.
+                                                                                                                                                                        
+┌──(bl4ck4non㉿bl4ck4non)-[~/Downloads/PG/pg_practice/Twiggy]
+└─$ cd CVE-2020-11651-poc 
+                                                                                                                                                                        
+┌──(bl4ck4non㉿bl4ck4non)-[~/…/PG/pg_practice/Twiggy/CVE-2020-11651-poc]
+└─$ pip3 install salt
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: salt in /usr/local/lib/python3.11/dist-packages (3005.1)
+Requirement already satisfied: Jinja2 in /usr/lib/python3/dist-packages (from salt) (3.0.3)
+Requirement already satisfied: jmespath in /usr/local/lib/python3.11/dist-packages (from salt) (1.0.1)
+Requirement already satisfied: msgpack!=0.5.5,>=0.5 in /usr/lib/python3/dist-packages (from salt) (1.0.3)
+Requirement already satisfied: PyYAML in /usr/lib/python3/dist-packages (from salt) (6.0)
+Requirement already satisfied: MarkupSafe in /usr/lib/python3/dist-packages (from salt) (2.1.1)
+Requirement already satisfied: requests>=1.0.0 in /usr/lib/python3/dist-packages (from salt) (2.28.1)
+Requirement already satisfied: distro>=1.0.1 in /usr/lib/python3/dist-packages (from salt) (1.8.0)
+Requirement already satisfied: contextvars in /usr/local/lib/python3.11/dist-packages (from salt) (2.4)
+Requirement already satisfied: psutil>=5.0.0 in /usr/local/lib/python3.11/dist-packages (from salt) (5.9.4)
+Requirement already satisfied: pyzmq<=20.0.0 in /usr/local/lib/python3.11/dist-packages (from salt) (20.0.0)
+Requirement already satisfied: pycryptodomex>=3.9.8 in /usr/lib/python3/dist-packages (from salt) (3.11.0)
+Requirement already satisfied: immutables>=0.9 in /usr/local/lib/python3.11/dist-packages (from contextvars->salt) (0.19)
+
+```
+
+Now that we are done with that, lets go ahead and exploit this vulnerability
+
+
 
 
 
