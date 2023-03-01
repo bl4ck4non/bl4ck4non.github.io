@@ -50,7 +50,21 @@ OS and Service detection performed. Please report any incorrect results at https
 # Nmap done at Sat Jan  7 10:12:07 2023 -- 1 IP address (1 host up) scanned in 312.17 seconds
 ```
 
-We have 6 ports opened here, port 22 which runs ssh, port 53 which runs domain, port 80,8000 which runs http, port 4505,4506 which runs zmtp
+We have 6 ports opened here, port 22 which runs ssh, port 53 which runs domain, port 80,8000 which runs http, port 4505,4506 which runs zmtp. We won't waste our time on port 80 because I din't find anything interesting there. This means our enumeration will be focused more on port 8000.
+
+<h2>Enumeration<h2>
+  Going to the webpage should get you something like this
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
