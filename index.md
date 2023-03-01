@@ -30,6 +30,6 @@ Yo 👋, Welcome To My Cyber Security Blog I'm Mark, I Post Different Hacking Tr
 * * *
 
 - [[Mar 01 2023]] [Noname](https://bl4ck4non.github.io/posts/PG/new.html) `First Commit`
-- [[Mar 01 2023]] [example](https://bl4ck4non.github.io/posts/PG/examplee.html) `example`
+- [[Mar 01 2023]] [example](https://bl4ck4non.github.io/posts/PG/example.html) `example`
 
 * * *
