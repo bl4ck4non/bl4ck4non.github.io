@@ -7,15 +7,16 @@ title: Home
 ### Welcome To My Cyber Security Blog, H4X0R
 * * *
 
-Yo 👋, Welcome To My Cyber Security Blog I'm Mark, I Post Different Hacking Tricks, Writeups, Articles, Any Stuffs Related To Hacking That I Learn 😉.
+Yo 👋, Welcome To My Cyber Security Blog I'm BlackAnon, I Post Different Hacking Tricks, Writeups, Articles, Any Stuffs Related To Hacking That I Learn 😉.
 
 * * *
-### Whoami:~#
+file:///home/bl4ck4non/Pictures/wallpaper/Anime.jpeg![image](https://user-images.githubusercontent.com/126628077/222019733-1ed711bf-f2ff-4156-80af-c3422531f369.png)
+
 * * *
 
 - **My Name:**    `Omolewa Samuel`
 - **Also Known As:** `BlackAnon`
-- **What Do I Do:**  `CTF / Ethical Hacking / Pentesting`
+- **What Do I Do:**  `CTF / Ethical Hacking / Penetration Testing`
 - **Twitter:** `https://twitter.com/BlackAnon22`
 - **Github:** `https://github.com/bl4ck4non`
 
