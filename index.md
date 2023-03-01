@@ -10,7 +10,7 @@ title: Home
 Yo 👋, Welcome To My Cyber Security Blog I'm BlackAnon, I Post Different Hacking Tricks, Writeups, Articles, Any Stuffs Related To Hacking That I Learn 😉.
 
 * * *
-### Whoami:~#
+file:///home/bl4ck4non/Pictures/wallpaper/kaneki.jpeg![Uploading image.png…]()
 
 * * *
 
