@@ -116,7 +116,7 @@ Now that we are done with that, lets go ahead and exploit this vulnerability
 
 <h2>Exploitation</h2>
 
-So, we are going to run this exploit and we see what happens
+So, we are going to run this exploit and see what happens
 
 >command:python3 exploit.py --master 192.168.223.62  --exec whoami 
 
