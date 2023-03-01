@@ -57,6 +57,12 @@ We have 6 ports opened here, port 22 which runs ssh, port 53 which runs domain, 
 
 ![image](https://user-images.githubusercontent.com/126628077/222027526-326df050-f1bc-47c9-8d0e-e84616a9ad5e.png)
 
+Lets try checking the header using curl
+
+>command: curl -v http://192.168.87.62:8000/
+
+![image](https://user-images.githubusercontent.com/126628077/222029279-e15a72ea-5f99-463c-83f5-3d482a21fc86.png)
+
 
 
 
