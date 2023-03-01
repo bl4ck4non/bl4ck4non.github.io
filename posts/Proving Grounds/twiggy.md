@@ -54,6 +54,7 @@ We have 6 ports opened here, port 22 which runs ssh, port 53 which runs domain, 
 
 <h2>Enumeration</h2>
   Going to the webpage should get you something like this
+
 ![image](https://user-images.githubusercontent.com/126628077/222027526-326df050-f1bc-47c9-8d0e-e84616a9ad5e.png)
 
 
