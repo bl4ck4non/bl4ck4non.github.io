@@ -63,8 +63,9 @@ Lets try checking the header using curl
 
 ![image](https://user-images.githubusercontent.com/126628077/222029279-e15a72ea-5f99-463c-83f5-3d482a21fc86.png)
 
+From the screenshot above we can see that it is running salt-api/3000-i, checking it up online I found this
 
-
+![image](https://user-images.githubusercontent.com/126628077/222030012-7a1b8f63-701e-4ee3-950e-80e5b5c4c8b2.png)
 
 
 
