@@ -3,6 +3,49 @@
   <h3>PortScan</h3>
   
   >command: sudo nmap -A -p- -T4 -v
+```
+# Nmap 7.93 scan initiated Sat Jan  7 10:06:55 2023 as: nmap -A -v -T4 -p- -oN twiggy 192.168.242.62
+Nmap scan report for 192.168.242.62
+Host is up (0.44s latency).
+Not shown: 65529 filtered tcp ports (no-response)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 447d1a569b68aef53bf6381773165d75 (RSA)
+|   256 1c789d838152f4b01d8e3203cba61893 (ECDSA)
+|_  256 08c912d97b9898c8b3997a19822ea3ea (ED25519)
+53/tcp   open  domain  NLnet Labs NSD
+80/tcp   open  http    nginx 1.16.1
+|_http-favicon: Unknown favicon MD5: 11FB4799192313DD5474A343D9CC0A17
+|_http-title: Home | Mezzanine
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+|_http-server-header: nginx/1.16.1
+4505/tcp open  zmtp    ZeroMQ ZMTP 2.0
+4506/tcp open  zmtp    ZeroMQ ZMTP 2.0
+8000/tcp open  http    nginx 1.16.1
+|_http-open-proxy: Proxy might be redirecting requests
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (application/json).
+|_http-server-header: nginx/1.16.1
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Linux 3.X|4.X|5.X (89%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4.4 cpe:/o:linux:linux_kernel:5.1
+Aggressive OS guesses: Linux 3.10 - 3.12 (89%), Linux 4.4 (89%), Linux 4.9 (89%), Linux 3.10 - 3.16 (86%), Linux 3.10 - 4.11 (85%), Linux 3.11 - 4.1 (85%), Linux 3.2 - 4.9 (85%), Linux 5.1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.003 days (since Sat Jan  7 10:08:04 2023)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: All zeros
 
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   698.61 ms 192.168.49.1
+2   698.68 ms 192.168.242.62
 
-  
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jan  7 10:12:07 2023 -- 1 IP address (1 host up) scanned in 312.17 seconds
+```
