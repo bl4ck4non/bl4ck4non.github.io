@@ -29,6 +29,6 @@ Yo 👋, Welcome To My Cyber Security Blog I'm Mark, I Post Different Hacking Tr
 ### **Proving Grounds:~#**
 * * *
 
-- [[Mar 01 2023]] [Noname](https://bl4ck4non.github.io/posts/PG/new.md) `First Commit`
+- [[Mar 01 2023]] [Noname](https://bl4ck4non.github.io/posts/PG/new.html) `First Commit`
 
 * * *
