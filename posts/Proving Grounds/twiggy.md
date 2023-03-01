@@ -2,7 +2,7 @@
   
   <h3>PortScan</h3>
   
-  >command: sudo nmap -A -p- -T4 -v
+  >command: sudo nmap -A 192.168.87.62 -p- -T4 -v
 ```
 # Nmap 7.93 scan initiated Sat Jan  7 10:06:55 2023 as: nmap -A -v -T4 -p- -oN twiggy 192.168.242.62
 Nmap scan report for 192.168.242.62
